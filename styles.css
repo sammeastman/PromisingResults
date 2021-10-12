@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: whitesmoke
+}
+
+#btn {
+    border-radius: 75px;
+    width: 700px;
+    height: 200px;
+    font-size: 90px;
+    background-color: pink;
+    border: 1px solid red;
+    font-style: italic;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: rgb(180, 122, 132);
+}
